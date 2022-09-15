@@ -1,7 +1,4 @@
-# public
-Visible to the public
-
-Description
+# Description
 
 The program completes the following process:
 Data is pulled from an API provided by Alpaca (www.alpaca.markets).
