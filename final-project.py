@@ -1,6 +1,5 @@
 # Preston Bell
-# DATA 5500
-# Final Project
+# Trading with Alpaca
 
 import requests
 import json
