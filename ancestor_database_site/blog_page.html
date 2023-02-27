@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Database built while practicing and learning web programming">
+        <meta name="author" content="Preston Bell">
+        <title>Our Blog</title>
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+        <link href="css/styles.css" rel="stylesheet" type="text/css">
+        <link href="css/normalize.css" rel="stylesheet" type="text/css">
+        <link href="css/w3.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <header>
+            <div class="navbar">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="#openModal">Login</a></li>
+                    </ul>
+                </nav>
+                <div id="openModal" class="modalDialog">
+                    <div><a href="#close" title="Close" class="close">X</a>
+                        <!-- content for Modal -->
+                        <div class="login">
+                            <h2>Sign in</h2>
+                            <form action="logged.html">
+                                <input type="email" name="email" placeholder="Email">
+                                <input type="password" name="password" placeholder="Password">
+                                <input type="submit" value="Login">
+                            </form>
+                        </div><!-- end login -->
+                    </div><!-- end close -->
+                </div><!-- end openModal -->
+            </div><!-- end navbar -->
+        </header>
+
+        <!-- ==================== HERO ===================== -->
+
+        <section id="blog_hero">
+        </section>
+
+        <!-- ================== DESCRIPTION =================== -->
+
+        <section id="description">
+            <h2>Our Blog</h2>
+            <hr>
+        </section>
+
+        <div class="blog_box">
+            <img src="img/Mountain_path.jpg" alt="mountain path" align="left" class="mtn">
+            <div class="blog_text">
+                <h3>Our hike in the mountains</h3>
+                <h4>Your Name &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Date &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Comments (8)</h4>
+                <hr>
+                <p>Spicy jalapeno bacon ipsum dolor amet ball tip cupim capicola hamburger, ground round shank tongue. Pancetta spare ribs strip steak, beef ribs jowl filet mignon leberkas tail shankle pork belly pork loin shoulder drumstick chicken. Lipsum sipsum jipsum mipsum kipsum. Ipsum amsum goingsum tosum getsum verysum goodsum atsum codingsum.</p>
+            </div><!-- end blog text -->
+        </div>
+
+        <footer>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                </ul>
+            </nav>
+        </footer>
+    </body>
+</html>
