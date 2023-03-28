@@ -1,6 +1,6 @@
 # Flight Delay Predictor
 
-This project was written by Tyler Conley and Preston Bell at HackUSU 2023. *It was designed and built from start to finish in under 20 hours.
+This project was written by Tyler Conley and Preston Bell at HackUSU 2023. *It was designed and built from start to finish in under 20 hours.*
 
 The user inputs a flight number into the app. The program uses this number to retrieve flight information from a web API. Location information from the retrieval is used to make a second API retrieval from a live weather API. The collected data is put through a logistic regression model (probabality based prediction model) and information is returned to the user. 
 
